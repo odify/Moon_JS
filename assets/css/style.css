@@ -1,0 +1,50 @@
+body{
+    font-family: Fira Sans, serif;
+    font-weight: 800;
+    background-image: url(../img/uni.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    scroll-behavior: smooth;
+}
+#ex1{    
+    display: table;    
+    margin:20px auto;
+    text-align: center;    
+    color:001111;
+    background-color:white;
+    border: 1px solid #001111;
+    padding: 5px 30px;
+    }
+    
+
+header{
+    margin: 0 auto;
+    background-color: #F25c27;
+    text-align: center;
+    border: 3px outset #fff;
+}
+.headline{
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: 0.9px;
+    background-color: #F25c27;
+    text-shadow: 1.77px 2.22px 3.44px #191919;
+    text-transform: uppercase;
+    animation-name: xy;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+@keyframes xy{
+    0% {margin-left: 2%; text-shadow: 1.77px 2.22px 3.44px #000;}
+    33% {margin-right: 1%; text-shadow: 2.77px 0.22px 4.44px #000;}
+    66% {margin-left: 1%; text-shadow: 1.77px 1.22px 3.44px #000;}
+    100% {margin-left: 1%; color: black;}
+}
+
+
+#ex1 [shadow]{
+    filter:drop-shadow(0 0 25px #001111);
+    padding:10px 0;
+    }

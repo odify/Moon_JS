@@ -16,8 +16,6 @@ body{
     border: 1px solid #001111;
     padding: 5px 30px;
     }
-    
-
 header{
     margin: 0 auto;
     background-color: #F25c27;
@@ -42,9 +40,30 @@ header{
     66% {margin-left: 1%; text-shadow: 1.77px 1.22px 3.44px #000;}
     100% {margin-left: 1%; color: black;}
 }
-
-
 #ex1 [shadow]{
     filter:drop-shadow(0 0 25px #001111);
     padding:10px 0;
-    }
+}
+.divx {
+    text-align: center;
+    color: #fff;
+    background-color: #F25c27;
+    text-shadow: 2.77px 3.22px 3.64px #000;
+}
+.nm{
+      font-size: 3em;
+      color: #fff;
+      letter-spacing: 0.8px;
+      font-weight: 800;
+}
+.xday{
+    color: #fff;
+    font-size: 1.45em;
+    font-weight: 400;
+    letter-spacing: 0.6px;
+    text-shadow: 3.77px 1.22px 2.64px #000;
+}
+.xyzzz{
+    background-color: #000;
+    border: 2px outset #fff
+}

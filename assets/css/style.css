@@ -1,11 +1,59 @@
-body{
+.tablink {
+    background-color: #000;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 1rem;
+    width: 25%;
+    border: 1px outset #FFF
+  }
+  .tablink:hover {
+    background-color: #000;
+    color: #FFF
+  }
+  .tabcontent {
+    color: #FFF;
+    display: none;
+    padding: 25px;
+    text-align: center;
+  }
+button{
+    width: 45%;
+    padding: 4%;
+    font-size:1.1em;
+    text-shadow: 0.4px 1px 0.9px #191919;
+    background-color: #f25C26;
+    border-radius: 1px;
+    border: 1.3px outset #fff;
+    display: inline-block;
+    cursor: pointer;
+  }
+button:hover {
+      background-color: #000;
+      color: #fff;
+      text-shadow: 0px -1px 0px #191919;
+      border-radius: 1.4px;
+      border: 1.72px outset #fff;
+    }
+h1{
+    text-align: center;
+    background-color: #F25C27;
+    color: #FFF;
+    text-shadow: 1px 2px 2px #191919
+}  
+#twentyone {background-color: #000;}
+#twentytwo {background-color: #F25C27;}
+#twentytree {background-color: #000;}
+#twentyfour {background-color: #F25C27;}body{
     font-family: Fira Sans, serif;
-    font-weight: 800;
+    font-weight: 900;
     background-image: url(../img/uni.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
-    scroll-behavior: smooth;
 }
 #ex1{    
     display: table;    
@@ -66,4 +114,26 @@ header{
 .xyzzz{
     background-color: #000;
     border: 2px outset #fff
+}
+.tablink {
+    background-color: #000;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 1rem;
+    width: 25%;
+    border: 1px outset #FFF
+}
+.tablink:hover {
+    background-color: #000;
+    color: #FFF
+}
+.tabcontent {
+    color: #FFF;
+    display: none;
+    padding: 25px;
+    max-width: fit-content;
 }
